@@ -14,6 +14,7 @@ gem 'puma'
 gem 'nokogiri'
 gem 'turbolinks'
 gem 'rails-i18n'
+gem 'rails_12factor'
 
 #==================================================
 # ASSETS - Integration & Compressors
