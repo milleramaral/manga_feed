@@ -1,6 +1,8 @@
 require 'open-uri'
 
-class CentralMangas
+class CentralMangas < Struct.new(:title, :url, :image, :moment)
+  include ActiveModel::Serialization
+
   SITE = 'http://centraldemangas.org'
   MANGAS = [
     'Bleach',
@@ -9,15 +11,10 @@ class CentralMangas
     'Naruto'
   ]
 
-  attr_reader :doc
-
-  def initialize
+  def self.lancamentos
     @doc = Nokogiri::HTML(open(SITE))
-  end
-
-  def lancamentos
     lancamentos = []
-    doc.css('div.lancto').each do |lancamento|
+    @doc.css('div.lancto').each do |lancamento|
       title = lancamento.css('p strong a').attr('title').to_s
       url = lancamento.css('p strong a').attr('href').to_s
       url = SITE + url if url.starts_with? '/'
@@ -25,7 +22,7 @@ class CentralMangas
       moment = lancamento.css('span.moment').first.content.to_datetime
 
       if MANGAS.include?(title)
-        lancamentos << OpenStruct.new(title: title, url: url, image: image, moment: moment)
+        lancamentos << new(title, url, image, moment)
       end
     end
 

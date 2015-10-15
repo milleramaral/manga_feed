@@ -4,7 +4,7 @@
 
 <div class="row">
 
-  <% @feeds.lancamentos.each do |lancamento| %>
+  <% @feeds.each do |lancamento| %>
   <div class="well">
     <p><strong><%= "#{lancamento.title} - #{time_ago_in_words lancamento.moment}" %></strong></p>
     <%= link_to image_tag(lancamento.image), lancamento.url, target: :blank %>
