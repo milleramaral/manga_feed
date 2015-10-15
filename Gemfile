@@ -31,4 +31,5 @@ gem 'jquery-rails'
 group :development do
   gem 'pry-meta'
   gem 'quiet_assets'
+  gem 'dotenv-rails'
 end
