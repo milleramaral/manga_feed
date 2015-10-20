@@ -16,6 +16,7 @@ gem 'turbolinks'
 gem 'rails-i18n'
 gem 'rails_12factor'
 gem 'active_model_serializers'
+gem 'friendly_id', '~> 5.1.0'
 
 #==================================================
 # ASSETS - Integration & Compressors

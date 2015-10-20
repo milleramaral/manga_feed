@@ -1,2 +1,17 @@
 @import "material-design-lite";
 @import "layout";
+
+.card-manga-content {
+ border-radius: 2px;
+ margin-bottom: 40px; 
+}
+
+.mdl-data-table--full {
+  width: 100%;
+}
+
+.btn-default {
+  @extend .mdl-button; 
+  @extend .mdl-button--raised;
+  @extend .mdl-button--colored;
+}

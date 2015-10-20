@@ -1,0 +1,19 @@
+<% @mangas.each do |manga| %>
+  <div class="card-manga-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+    <section class="section--center mdl-grid mdl-grid--no-spacing">
+      <header class="mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+        <%= image_tag manga.cover_url, width: "100%" %>
+      </header>
+      <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+        <div class="mdl-card__supporting-text">
+          <%= content_tag :h4, manga.name %>
+          <%= simple_format manga.description %>
+        </div>
+        <div class="mdl-card__actions">
+          <%= link_to "Ver capítulos", manga_path(manga), class: 'mdl-button' %>
+        </div>
+      </div>
+    </section>
+  </div>
+<% end %>
+

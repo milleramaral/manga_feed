@@ -9,14 +9,21 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <%= render "shared/header" %>
-    <main class="mdl-layout__content">
-      <%= yield %>
-      <%= render "shared/footer" %>
-    </main>
+<body> 
+  <div class="mdl-layout__container has-scrolling-header">
+    <div class="app-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <%= render "shared/header" %>
+      <div class="app-ribbon">
+      </div>
+      <main class="app-main mdl-layout__content">
+        <div class="app-container mdl-grid">
+          <%= yield %>
+        </div>
+        <%= render "shared/footer" %>
+      </main>
+    </div>
   </div>
-</div>
+</body>
 
 </html>
+

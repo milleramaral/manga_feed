@@ -1,0 +1,33 @@
+<div class="app-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+  <div class="app-crumbs mdl-color-text--grey-500">
+    <%= link_to "Home", :root %> &gt; 
+    <%= link_to "Mangás", :mangas %> &gt; 
+    <%= @manga %>
+  </div>
+  <%= content_tag :h3, @manga %>
+  <%= simple_format @manga.description %>
+  <%= content_tag :h5, "Capítulos" %>
+
+  <table class="mdl-data-table mdl-data-table--full mdl-js-data-table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th class="mdl-data-table__cell--non-numeric">Capitulo</th>
+      <th class="mdl-data-table__cell--non-numeric">Data de inclusão</th>
+      <th class="mdl-data-table__cell--non-numeric">Ler</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+    <% @manga.releases.reverse.each.with_index(1) do |release, index| %>
+    <tr>
+      <td><%= index %></td>
+      <td class="mdl-data-table__cell--non-numeric"><%= release.chapter %></td>
+      <td class="mdl-data-table__cell--non-numeric"><%= l(release.created_at, format: :short) %></td>
+      <td class="mdl-data-table__cell--non-numeric"><%= link_to icon(:launch), release.link %></td>
+    </tr>
+    <% end %>
+    
+  </tbody>
+</table>
+</div>
