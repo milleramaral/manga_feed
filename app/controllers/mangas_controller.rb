@@ -6,6 +6,7 @@ class MangasController < ApplicationController
 
   def show
     @manga = Manga.friendly.find(params[:id])
+    @releases = @manga.releases.order(id: :desc).limit(10)
   end
   
 end

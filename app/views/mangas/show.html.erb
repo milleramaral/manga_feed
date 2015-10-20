@@ -11,7 +11,6 @@
   <table class="mdl-data-table mdl-data-table--full mdl-js-data-table">
   <thead>
     <tr>
-      <th>#</th>
       <th class="mdl-data-table__cell--non-numeric">Capitulo</th>
       <th class="mdl-data-table__cell--non-numeric">Data de inclusão</th>
       <th class="mdl-data-table__cell--non-numeric">Ler</th>
@@ -19,9 +18,8 @@
   </thead>
   <tbody>
     
-    <% @manga.releases.reverse.each.with_index(1) do |release, index| %>
+    <% @releases.each do |release| %>
     <tr>
-      <td><%= index %></td>
       <td class="mdl-data-table__cell--non-numeric"><%= release.chapter %></td>
       <td class="mdl-data-table__cell--non-numeric"><%= l(release.created_at, format: :short) %></td>
       <td class="mdl-data-table__cell--non-numeric"><%= link_to icon(:launch), release.link %></td>
