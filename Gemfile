@@ -26,8 +26,11 @@ gem 'uglifier'
 #==================================================
 # ASSETS - Front-end
 #==================================================
-gem 'bootstrap-sass'
 gem 'jquery-rails'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-material-design-lite'
+end
 
 #==================================================
 # GEM - Development
