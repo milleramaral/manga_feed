@@ -21,9 +21,9 @@ class CentralMangas < Struct.new(:title, :url, :image, :moment)
       image = lancamento.css('img.img-thumbnail').attr('src').to_s
       moment = lancamento.css('span.moment').first.content.to_datetime
 
-      if MANGAS.include?(title)
+      # if MANGAS.include?(title)
         lancamentos << new(title, url, image, moment)
-      end
+      # end
     end
 
     lancamentos
