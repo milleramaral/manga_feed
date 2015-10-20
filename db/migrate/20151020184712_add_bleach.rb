@@ -8,10 +8,10 @@ class AddBleach < ActiveRecord::Migration
     site = "http://kononline.info/capitulos"
     doc = Nokogiri::HTML(open(site))
     releases = doc.css('.ui.ten.column.grid a')
+    
+    releases_hash = releases.map {|release| {chapter: release.text, link: "#{site}/#{release.text}"} }
 
-    releases.each do |release|
-      Manga.find(manga_id).releases.create(chapter: release.text, link: "#{site}/#{release.text}")
-    end
+    Manga.find(manga_id).releases.create(releases_hash)
 
     releases
   end
