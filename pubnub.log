@@ -1,0 +1,502 @@
+# Logfile created on 2015-10-21 17:48:49 +0000 by logger.rb/47272
+D, [2015-10-21T17:48:49.373509 #15919] DEBUG -- pubnub: Symbolizing options keys
+D, [2015-10-21T17:48:49.373689 #15919] DEBUG -- pubnub: Setting default values
+D, [2015-10-21T17:48:49.373783 #15919] DEBUG -- pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-10-21T17:49:55.384232 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:49:55.385059 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+I, [2015-10-21T17:49:55.385313 #15919]  INFO -- pubnub: Bytesize: 243
+D, [2015-10-21T17:49:55.385412 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+I, [2015-10-21T17:49:55.385531 #15919]  INFO -- pubnub: Length:   243
+D, [2015-10-21T17:49:55.385567 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:49:55.385589 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:49:55.385609 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:49:55.385626 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:49:55.385645 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:49:55.385662 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:49:55.386317 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM started in new thread
+D, [2015-10-21T17:49:55.386385 #15919] DEBUG -- Pubnub: Pubnub::Client#start_railgun | Initializing railgun
+D, [2015-10-21T17:49:55.415931 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:49:55.416025 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:49:55.416113 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:49:55.416153 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:49:55.416302 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:49:55.416350 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:49:55.416374 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:49:55.416845 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+D, [2015-10-21T17:49:56.165671 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:49:56.165825 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:49:56.165866 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454497957048342"]
+D, [2015-10-21T17:49:56.165892 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:51:16.348243 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:51:16.349271 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+I, [2015-10-21T17:51:16.349586 #15919]  INFO -- pubnub: Bytesize: 243
+D, [2015-10-21T17:51:16.349738 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+I, [2015-10-21T17:51:16.350003 #15919]  INFO -- pubnub: Length:   243
+D, [2015-10-21T17:51:16.350062 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:51:16.350100 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:51:16.350131 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:51:16.350163 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:51:16.350185 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:51:16.350262 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:51:16.350304 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:51:16.350336 #15919] DEBUG -- pubnub: Pubnub::Client#start_railgun | Railgun already initialized
+D, [2015-10-21T17:51:16.355182 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:51:16.355277 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:51:16.355302 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:51:16.355330 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:51:16.355363 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:51:16.355390 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:51:16.355408 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:51:16.355532 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+D, [2015-10-21T17:51:16.550948 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:51:16.551152 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:51:16.551196 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454498766161973"]
+D, [2015-10-21T17:51:16.551218 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:51:21.820441 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:51:21.820775 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+I, [2015-10-21T17:51:21.821070 #15919]  INFO -- pubnub: Bytesize: 243
+D, [2015-10-21T17:51:21.821474 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+I, [2015-10-21T17:51:21.821674 #15919]  INFO -- pubnub: Length:   243
+D, [2015-10-21T17:51:21.821712 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:51:21.821730 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:51:21.821745 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:51:21.821759 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:51:21.821773 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:51:21.821791 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:51:21.821806 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:51:21.821820 #15919] DEBUG -- pubnub: Pubnub::Client#start_railgun | Railgun already initialized
+D, [2015-10-21T17:51:21.822497 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:51:21.822780 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:51:21.822846 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:51:21.822896 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:51:21.823025 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:51:21.823070 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:51:21.823089 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:51:21.823233 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/my_channel/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=e3ba222a-70b6-4316-af7a-16cf7b09f6ec
+D, [2015-10-21T17:51:21.890483 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:51:21.890632 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:51:21.890667 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454498819566241"]
+D, [2015-10-21T17:51:21.890689 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:51:51.184605 #15919] DEBUG -- pubnub: Symbolizing options keys
+D, [2015-10-21T17:51:51.185057 #15919] DEBUG -- pubnub: Setting default values
+D, [2015-10-21T17:51:51.185142 #15919] DEBUG -- pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-10-21T17:51:52.151329 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:51:52.151535 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+I, [2015-10-21T17:51:52.151621 #15919]  INFO -- pubnub: Bytesize: 239
+D, [2015-10-21T17:51:52.151889 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+I, [2015-10-21T17:51:52.152007 #15919]  INFO -- pubnub: Length:   239
+D, [2015-10-21T17:51:52.152039 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:51:52.152057 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:51:52.152073 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:51:52.152087 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:51:52.152103 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:51:52.152122 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:51:52.152138 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:51:52.152154 #15919] DEBUG -- Pubnub: Pubnub::Client#start_railgun | Initializing railgun
+D, [2015-10-21T17:51:52.162406 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:51:52.162501 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:51:52.162526 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:51:52.162544 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:51:52.162632 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:51:52.162701 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:51:52.162720 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:51:52.162845 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+D, [2015-10-21T17:51:52.211676 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:51:52.211823 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:51:52.211865 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454499122805094"]
+D, [2015-10-21T17:51:52.211892 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:52:46.958874 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Subscribe
+D, [2015-10-21T17:52:46.959296 #15919] DEBUG -- pubnub: Created event Pubnub::Subscribe
+D, [2015-10-21T17:52:46.959392 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:52:46.959523 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+I, [2015-10-21T17:52:46.959685 #15919]  INFO -- pubnub: Bytesize: 242
+D, [2015-10-21T17:52:46.959767 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+I, [2015-10-21T17:52:46.959877 #15919]  INFO -- pubnub: Length:   242
+D, [2015-10-21T17:52:46.959934 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:52:46.959956 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:52:46.959974 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-10-21T17:52:46.959991 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:52:46.960006 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:52:46.960026 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:46.960046 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:52:46.960061 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:46.960130 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+D, [2015-10-21T17:52:47.031977 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:52:47.032167 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:52:47.032217 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454499671006044"]
+D, [2015-10-21T17:52:47.032249 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:52:47.032292 #15919] DEBUG -- pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 0
+D, [2015-10-21T17:52:47.032328 #15919] DEBUG -- pubnub: SubscribeEvent#fire
+D, [2015-10-21T17:52:47.032354 #15919] DEBUG -- pubnub: SubscribeEvent#fire async
+D, [2015-10-21T17:52:47.032392 #15919] DEBUG -- pubnub: Channel: ["my_channel"]
+D, [2015-10-21T17:52:47.032550 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:52:47.032590 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:52:47.032618 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:52:47.282868 #15919] DEBUG -- pubnub: Async subscription running
+D, [2015-10-21T17:52:47.282980 #15919] DEBUG -- pubnub: origin: pubsub.pubnub.com
+D, [2015-10-21T17:52:47.283010 #15919] DEBUG -- pubnub: timetoken: 0
+D, [2015-10-21T17:52:47.283171 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:47.283224 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:52:47.283249 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:47.283352 #15919] DEBUG -- pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/my_channel/0/0?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+D, [2015-10-21T17:52:47.351863 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:52:47.351948 #15919] DEBUG -- pubnub: Subscribe#format_envelopes
+D, [2015-10-21T17:52:47.351986 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Response parsed
+D, [2015-10-21T17:52:47.352009 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Timetoken
+D, [2015-10-21T17:52:47.352075 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | envelopes created
+D, [2015-10-21T17:52:47.352098 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:52:47.352121 #15919] DEBUG -- pubnub: Response: [[],"14454498819601038"]
+D, [2015-10-21T17:52:47.352140 #15919] DEBUG -- pubnub: Event#update_app_timetoken
+D, [2015-10-21T17:52:47.352216 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:52:47.352216 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+I, [2015-10-21T17:52:47.352483 #15919]  INFO -- pubnub: Bytesize: 242
+D, [2015-10-21T17:52:47.352801 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+I, [2015-10-21T17:52:47.352921 #15919]  INFO -- pubnub: Length:   242
+D, [2015-10-21T17:52:47.352954 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:52:47.352972 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:52:47.352987 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-10-21T17:52:47.353004 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:52:47.353019 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:52:47.353039 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:47.353058 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:52:47.353075 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:47.353141 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+D, [2015-10-21T17:52:47.373752 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:52:47.373898 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:52:47.373939 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454499674436396"]
+D, [2015-10-21T17:52:47.373961 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:52:47.373988 #15919] DEBUG -- pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 14454498819601038
+D, [2015-10-21T17:52:47.374013 #15919] DEBUG -- pubnub: Updated timetoken to 14454498819601038
+D, [2015-10-21T17:52:47.374055 #15919] DEBUG -- pubnub: Event#fire_callbacks async
+D, [2015-10-21T17:52:47.374106 #15919] DEBUG -- pubnub: We can send next request now
+D, [2015-10-21T17:52:47.533937 #15919] DEBUG -- pubnub: Async subscription running
+D, [2015-10-21T17:52:47.534056 #15919] DEBUG -- pubnub: origin: pubsub.pubnub.com
+D, [2015-10-21T17:52:47.534098 #15919] DEBUG -- pubnub: timetoken: 14454498819601038
+D, [2015-10-21T17:52:47.534345 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:47.534404 #15919] DEBUG -- pubnub: Event#start_event | tt: 14454498819601038; ctt 14454498819601038
+D, [2015-10-21T17:52:47.534431 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:47.534533 #15919] DEBUG -- pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/my_channel/0/14454498819601038?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+D, [2015-10-21T17:52:55.061510 #15919] DEBUG -- pubnub: Symbolizing options keys
+D, [2015-10-21T17:52:55.062581 #15919] DEBUG -- pubnub: Setting default values
+D, [2015-10-21T17:52:55.062663 #15919] DEBUG -- pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-10-21T17:52:55.087835 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Subscribe
+D, [2015-10-21T17:52:55.087914 #15919] DEBUG -- pubnub: Created event Pubnub::Subscribe
+D, [2015-10-21T17:52:55.087975 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:52:55.088080 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+I, [2015-10-21T17:52:55.088220 #15919]  INFO -- pubnub: Bytesize: 242
+D, [2015-10-21T17:52:55.088295 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+I, [2015-10-21T17:52:55.088394 #15919]  INFO -- pubnub: Length:   242
+D, [2015-10-21T17:52:55.088421 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:52:55.088438 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:52:55.088451 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-10-21T17:52:55.088486 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:52:55.088500 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:52:55.088550 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:55.088572 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:52:55.088586 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:55.088648 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+D, [2015-10-21T17:52:55.112450 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:52:55.112910 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:52:55.112993 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454499751805944"]
+D, [2015-10-21T17:52:55.113057 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:52:55.113111 #15919] DEBUG -- pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 0
+D, [2015-10-21T17:52:55.113159 #15919] DEBUG -- pubnub: SubscribeEvent#fire
+D, [2015-10-21T17:52:55.113185 #15919] DEBUG -- pubnub: SubscribeEvent#fire async
+D, [2015-10-21T17:52:55.113228 #15919] DEBUG -- pubnub: Channel: ["my_channel"]
+D, [2015-10-21T17:52:55.113576 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:52:55.113807 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:52:55.113889 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:52:55.364659 #15919] DEBUG -- pubnub: Async subscription running
+D, [2015-10-21T17:52:55.364758 #15919] DEBUG -- pubnub: origin: pubsub.pubnub.com
+D, [2015-10-21T17:52:55.364787 #15919] DEBUG -- pubnub: timetoken: 0
+D, [2015-10-21T17:52:55.364944 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:55.364998 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:52:55.365023 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:55.365195 #15919] DEBUG -- pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/my_channel/0/0?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+D, [2015-10-21T17:52:55.432114 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:52:55.432210 #15919] DEBUG -- pubnub: Subscribe#format_envelopes
+D, [2015-10-21T17:52:55.432249 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Response parsed
+D, [2015-10-21T17:52:55.432269 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Timetoken
+D, [2015-10-21T17:52:55.432333 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | envelopes created
+D, [2015-10-21T17:52:55.432356 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:52:55.432389 #15919] DEBUG -- pubnub: Response: [[],"14454498819601038"]
+D, [2015-10-21T17:52:55.432425 #15919] DEBUG -- pubnub: Event#update_app_timetoken
+D, [2015-10-21T17:52:55.432511 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:52:55.432624 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+I, [2015-10-21T17:52:55.432788 #15919]  INFO -- pubnub: Bytesize: 242
+D, [2015-10-21T17:52:55.432904 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+I, [2015-10-21T17:52:55.433039 #15919]  INFO -- pubnub: Length:   242
+D, [2015-10-21T17:52:55.433075 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:52:55.433093 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:52:55.433108 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Sync event!
+D, [2015-10-21T17:52:55.433124 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:52:55.433139 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:52:55.433161 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:55.433181 #15919] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:52:55.433197 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:55.433267 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+D, [2015-10-21T17:52:55.455314 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:52:55.455459 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:52:55.455529 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454499755247563"]
+D, [2015-10-21T17:52:55.455576 #15919] DEBUG -- pubnub: Firing callbacks
+D, [2015-10-21T17:52:55.455615 #15919] DEBUG -- pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 14454498819601038
+D, [2015-10-21T17:52:55.455637 #15919] DEBUG -- pubnub: Updated timetoken to 14454498819601038
+D, [2015-10-21T17:52:55.455659 #15919] DEBUG -- pubnub: Event#fire_callbacks async
+D, [2015-10-21T17:52:55.455694 #15919] DEBUG -- pubnub: We can send next request now
+D, [2015-10-21T17:52:55.615666 #15919] DEBUG -- pubnub: Async subscription running
+D, [2015-10-21T17:52:55.615789 #15919] DEBUG -- pubnub: origin: pubsub.pubnub.com
+D, [2015-10-21T17:52:55.615829 #15919] DEBUG -- pubnub: timetoken: 14454498819601038
+D, [2015-10-21T17:52:55.615955 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:52:55.615999 #15919] DEBUG -- pubnub: Event#start_event | tt: 14454498819601038; ctt 14454498819601038
+D, [2015-10-21T17:52:55.616027 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:52:55.616154 #15919] DEBUG -- pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/my_channel/0/14454498819601038?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+D, [2015-10-21T17:53:03.910122 #15919] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:53:03.911062 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+I, [2015-10-21T17:53:03.911332 #15919]  INFO -- pubnub: Bytesize: 239
+D, [2015-10-21T17:53:03.911431 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+I, [2015-10-21T17:53:03.911780 #15919]  INFO -- pubnub: Length:   239
+D, [2015-10-21T17:53:03.911824 #15919] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:53:03.911844 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:53:03.911859 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:53:03.911944 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:53:03.911999 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:53:03.912022 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:53:03.912039 #15919] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:53:03.912055 #15919] DEBUG -- Pubnub: Pubnub::Client#start_railgun | Initializing railgun
+D, [2015-10-21T17:53:03.922431 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:53:03.922546 #15919] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:53:03.922581 #15919] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:53:03.922601 #15919] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:53:03.922673 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:53:03.922751 #15919] DEBUG -- pubnub: Event#start_event | tt: 14454498819601038; ctt 14454498819601038
+D, [2015-10-21T17:53:03.922863 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:53:03.923183 #15919] DEBUG -- pubnub: Pubnub::Publish#uri http://pubsub.pubnub.com/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/mangas/0/%22Hello%20from%20PubNub%20Ruby%20SDK%21%22?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+D, [2015-10-21T17:53:03.947048 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:53:03.947299 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:53:03.947408 #15919] DEBUG -- pubnub: Response: [1,"Sent","14454499840172197"]
+D, [2015-10-21T17:53:03.947476 #15919] DEBUG -- pubnub: Firing callbacks
+E, [2015-10-21T17:54:26.058590 #15919] ERROR -- pubnub: ERROR TYPE: Pubnub::ArgumentError
+ERROR MESSAGE: Publish requires :message argument
+ERROR BACKTRACE: 
+D, [2015-10-21T17:54:36.161897 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:54:36.162585 #15919] DEBUG -- pubnub: Subscribe#format_envelopes
+D, [2015-10-21T17:54:36.162629 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Response parsed
+D, [2015-10-21T17:54:36.162657 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Timetoken
+D, [2015-10-21T17:54:36.162723 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | envelopes created
+D, [2015-10-21T17:54:36.162744 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:54:36.162768 #15919] DEBUG -- pubnub: Response: [[],"14454498819601038"]
+D, [2015-10-21T17:54:36.162788 #15919] DEBUG -- pubnub: Event#update_app_timetoken
+D, [2015-10-21T17:54:36.162920 #15919] DEBUG -- pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 14454498819601038
+D, [2015-10-21T17:54:36.162963 #15919] DEBUG -- pubnub: Updated timetoken to 14454498819601038
+D, [2015-10-21T17:54:36.163011 #15919] DEBUG -- pubnub: Event#fire_callbacks async
+D, [2015-10-21T17:54:36.163055 #15919] DEBUG -- pubnub: We can send next request now
+D, [2015-10-21T17:54:36.162489 #15919] DEBUG -- pubnub: Event#handle_response
+D, [2015-10-21T17:54:36.163104 #15919] DEBUG -- pubnub: Subscribe#format_envelopes
+D, [2015-10-21T17:54:36.163240 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Response parsed
+D, [2015-10-21T17:54:36.163287 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | Timetoken
+D, [2015-10-21T17:54:36.163345 #15919] DEBUG -- pubnub: Subscribe#format_envelopes | envelopes created
+D, [2015-10-21T17:54:36.163365 #15919] DEBUG -- pubnub: Event#add_common_data_to_envelopes
+D, [2015-10-21T17:54:36.163387 #15919] DEBUG -- pubnub: Response: [[],"14454498819601038"]
+D, [2015-10-21T17:54:36.163419 #15919] DEBUG -- pubnub: Event#update_app_timetoken
+D, [2015-10-21T17:54:36.163451 #15919] DEBUG -- pubnub: Pubnub::Client#update_timetoken | Current timetoken is eq 14454498819601038
+D, [2015-10-21T17:54:36.163469 #15919] DEBUG -- pubnub: Updated timetoken to 14454498819601038
+D, [2015-10-21T17:54:36.163544 #15919] DEBUG -- pubnub: Event#fire_callbacks async
+D, [2015-10-21T17:54:36.163610 #15919] DEBUG -- pubnub: We can send next request now
+D, [2015-10-21T17:54:36.199264 #15919] DEBUG -- pubnub: Async subscription running
+D, [2015-10-21T17:54:36.199400 #15919] DEBUG -- pubnub: origin: pubsub.pubnub.com
+D, [2015-10-21T17:54:36.199446 #15919] DEBUG -- pubnub: timetoken: 14454498819601038
+D, [2015-10-21T17:54:36.199661 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:54:36.199722 #15919] DEBUG -- pubnub: Event#start_event | tt: 14454498819601038; ctt 14454498819601038
+D, [2015-10-21T17:54:36.200018 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:54:36.200392 #15919] DEBUG -- pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/my_channel/0/14454498819601038?pnsdk=PubNub-Ruby/3.7.9&uuid=6592aba5-1dcc-425e-aa0d-3b9805f18785
+D, [2015-10-21T17:54:36.335921 #15919] DEBUG -- pubnub: Async subscription running
+D, [2015-10-21T17:54:36.336033 #15919] DEBUG -- pubnub: origin: pubsub.pubnub.com
+D, [2015-10-21T17:54:36.336069 #15919] DEBUG -- pubnub: timetoken: 14454498819601038
+D, [2015-10-21T17:54:36.336279 #15919] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:54:36.336342 #15919] DEBUG -- pubnub: Event#start_event | tt: 14454498819601038; ctt 14454498819601038
+D, [2015-10-21T17:54:36.336366 #15919] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:54:36.336456 #15919] DEBUG -- pubnub: Pubnub::Subscribe#uri http://pubsub.pubnub.com/subscribe/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/my_channel/0/14454498819601038?pnsdk=PubNub-Ruby/3.7.9&uuid=d9893178-e85d-4d04-9ad9-01e5d129c272
+E, [2015-10-21T17:54:44.954847 #15919] ERROR -- pubnub: ERROR TYPE: Pubnub::ArgumentError
+ERROR MESSAGE: Publish requires :message argument
+ERROR BACKTRACE: 
+E, [2015-10-21T17:54:58.578354 #15919] ERROR -- pubnub: ERROR TYPE: Pubnub::ArgumentError
+ERROR MESSAGE: Callback parameter is required while using async
+ERROR BACKTRACE: 
+E, [2015-10-21T17:55:12.891725 #15919] ERROR -- pubnub: ERROR TYPE: Pubnub::ArgumentError
+ERROR MESSAGE: Publish requires :message argument
+ERROR BACKTRACE: 
+D, [2015-10-21T17:55:20.380652 #15919] DEBUG -- pubnub: Symbolizing options keys
+D, [2015-10-21T17:55:20.389313 #15919] DEBUG -- pubnub: Setting default values
+D, [2015-10-21T17:55:20.389425 #15919] DEBUG -- pubnub: 
+
+Created new Pubnub::Client instance
+E, [2015-10-21T17:55:20.683542 #15919] ERROR -- pubnub: ERROR TYPE: Pubnub::ArgumentError
+ERROR MESSAGE: Publish requires :message argument
+ERROR BACKTRACE: 
+D, [2015-10-21T17:55:27.413162 #15972] DEBUG -- pubnub: Symbolizing options keys
+D, [2015-10-21T17:55:27.413330 #15972] DEBUG -- pubnub: Setting default values
+D, [2015-10-21T17:55:27.413406 #15972] DEBUG -- pubnub: 
+
+Created new Pubnub::Client instance
+E, [2015-10-21T17:55:27.932609 #15972] ERROR -- pubnub: ERROR TYPE: Pubnub::ArgumentError
+ERROR MESSAGE: Publish requires :message argument
+ERROR BACKTRACE: 
+D, [2015-10-21T17:58:00.825139 #15972] DEBUG -- pubnub: Symbolizing options keys
+D, [2015-10-21T17:58:00.825297 #15972] DEBUG -- pubnub: Setting default values
+D, [2015-10-21T17:58:00.825355 #15972] DEBUG -- pubnub: 
+
+Created new Pubnub::Client instance
+D, [2015-10-21T17:58:19.251535 #15972] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:58:19.252344 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+I, [2015-10-21T17:58:19.252584 #15972]  INFO -- pubnub: Bytesize: 167
+D, [2015-10-21T17:58:19.252674 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+I, [2015-10-21T17:58:19.252781 #15972]  INFO -- pubnub: Length:   167
+D, [2015-10-21T17:58:19.252818 #15972] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:58:19.252840 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:58:19.252861 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:58:19.252879 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:58:19.252898 #15972] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:58:19.252918 #15972] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:58:19.253954 #15972] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM started in new thread
+D, [2015-10-21T17:58:19.254006 #15972] DEBUG -- Pubnub: Pubnub::Client#start_railgun | Initializing railgun
+D, [2015-10-21T17:58:19.362403 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:58:19.362486 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:58:19.362512 #15972] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:58:19.362531 #15972] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:58:19.362655 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:19.362688 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:19.362710 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:19.362813 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:19.503526 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:20.503833 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:20.503942 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:20.503967 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:20.504057 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:20.508880 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:21.510530 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:21.510692 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:21.510774 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:21.510994 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:21.517237 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:22.517578 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:22.517715 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:22.517751 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:22.517913 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:22.522675 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:23.522924 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:23.523061 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:23.523105 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:23.523252 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:23.528438 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:24.528813 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:24.528914 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:24.528940 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:24.529061 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:24.533878 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:25.536099 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:25.536297 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:25.536388 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:25.536637 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:25.544632 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:26.545678 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:26.545829 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:26.545870 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:26.546182 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:26.551660 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:27.559750 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:27.559863 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:27.559889 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:27.560009 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:27.565707 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:28.570437 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:28.570546 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:28.570571 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:28.570694 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:28.576492 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:58:29.580022 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:58:29.580167 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:58:29.580203 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:58:29.580370 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:58:29.586405 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+E, [2015-10-21T17:58:30.589774 #15972] ERROR -- pubnub: #<NoMethodError: undefined method `body' for nil:NilClass>
+E, [2015-10-21T17:58:31.590173 #15972] ERROR -- pubnub: Aborting Pubnub::Publish event due to network errors and reaching max retries
+D, [2015-10-21T17:59:38.324953 #15972] DEBUG -- pubnub: Event#initialize | Initialized Pubnub::Publish
+D, [2015-10-21T17:59:38.325452 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+I, [2015-10-21T17:59:38.325613 #15972]  INFO -- pubnub: Bytesize: 167
+D, [2015-10-21T17:59:38.325691 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+I, [2015-10-21T17:59:38.325814 #15972]  INFO -- pubnub: Length:   167
+D, [2015-10-21T17:59:38.325848 #15972] DEBUG -- pubnub: Created event Pubnub::Publish
+D, [2015-10-21T17:59:38.325867 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:59:38.325883 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Adding event to async_events
+D, [2015-10-21T17:59:38.325899 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Starting railgun
+D, [2015-10-21T17:59:38.325915 #15972] DEBUG -- pubnub: Pubnub::Client#start_event_machine | starting EM in new thread
+D, [2015-10-21T17:59:38.325935 #15972] DEBUG -- pubnub: Pubnub::Client#start_event_machine | We aren't running on thin
+D, [2015-10-21T17:59:38.325955 #15972] DEBUG -- pubnub: Pubnub::Client#start_event_machine | EM already running
+D, [2015-10-21T17:59:38.325972 #15972] DEBUG -- pubnub: Pubnub::Client#start_railgun | Railgun already initialized
+D, [2015-10-21T17:59:38.333679 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire
+D, [2015-10-21T17:59:38.333788 #15972] DEBUG -- pubnub: Pubnub::SingleEvent#fire | Event already on list!
+D, [2015-10-21T17:59:38.333815 #15972] DEBUG -- pubnub: Pubnub::Event#fire
+D, [2015-10-21T17:59:38.333835 #15972] DEBUG -- pubnub: Event#fire
+D, [2015-10-21T17:59:38.333867 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:38.333895 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:38.333914 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:38.334033 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:38.339183 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:39.340401 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:39.340548 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:39.340590 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:39.340761 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:39.346021 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:40.351455 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:40.351667 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:40.351733 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:40.351895 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:40.357606 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:41.357910 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:41.358053 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:41.358090 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:41.358390 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:41.365861 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:42.369346 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:42.369483 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:42.369512 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:42.369654 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:42.374931 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:43.375193 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:43.375338 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:43.375364 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:43.375524 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:43.382678 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:44.383066 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:44.384445 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:44.384879 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:44.385567 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:44.391930 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:45.392759 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:45.392955 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:45.393051 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:45.393079 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:45.400082 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:46.401277 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:46.401491 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:46.401671 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:46.401954 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:46.406972 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:47.407272 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:47.407481 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:47.407548 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:47.407734 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:47.412774 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+D, [2015-10-21T17:59:48.414080 #15972] DEBUG -- pubnub: Event#start_event | sending request
+D, [2015-10-21T17:59:48.414241 #15972] DEBUG -- pubnub: Event#start_event | tt: 0; ctt 0
+D, [2015-10-21T17:59:48.414323 #15972] DEBUG -- pubnub: Pubnub::Event#send_request
+D, [2015-10-21T17:59:48.414446 #15972] DEBUG -- pubnub: Pubnub::Publish#uri http://web/publish/pub-c-eaff6582-31ee-4f8d-92e0-4bfbd970e17d/sub-c-6c0807a0-781b-11e5-a643-02ee2ddab7fe/0/hello_world/0/%22hi%22?pnsdk=PubNub-Ruby/3.7.9&uuid=myUserID
+E, [2015-10-21T17:59:48.421433 #15972] ERROR -- pubnub: #<SocketError: getaddrinfo: Name or service not known>
+E, [2015-10-21T17:59:49.421713 #15972] ERROR -- pubnub: #<NoMethodError: undefined method `body' for nil:NilClass>
+E, [2015-10-21T17:59:50.422781 #15972] ERROR -- pubnub: Aborting Pubnub::Publish event due to network errors and reaching max retries
