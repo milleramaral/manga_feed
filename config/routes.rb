@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   root to: 'welcome#index'
-
   resources :mangas, only: [:index, :show]
 
-  get "/feed", to: "welcome#index"
+  namespace :api, defaults: { format: :json} do
+    resources :notifications, only: [:index]
+    resources :mangas, only: [:index, :show]
+  end  
+
 end

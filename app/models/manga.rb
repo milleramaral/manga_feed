@@ -8,4 +8,8 @@ class Manga < ActiveRecord::Base
     name
   end
 
+  def last_release
+    releases.last.created_at.to_s
+  end
+
 end
