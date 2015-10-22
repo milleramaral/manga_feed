@@ -18,6 +18,8 @@ gem 'rails_12factor'
 gem 'active_model_serializers'
 gem 'friendly_id', '~> 5.1.0'
 gem 'pubnub'
+gem 'whenever', :require => false
+gem 'dotenv-rails'
 
 #==================================================
 # ASSETS - Integration & Compressors
@@ -40,5 +42,4 @@ end
 group :development do
   gem 'pry-meta'
   gem 'quiet_assets'
-  gem 'dotenv-rails'
 end
