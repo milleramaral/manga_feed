@@ -27,8 +27,8 @@ class Notification < Struct.new(:name, :cover, :slug, :releases)
     PUBNUB.publish(:channel  => "mangas", :message  => options.to_json, http_sync: true)
   end
 
-  def self.send_message(title, message)
-    options = { type: "basic", title: title, message: message, iconUrl: "images/icon-128.png" }
+  def self.send_message(title, message, cover_url = "images/icon-128.png")
+    options = { type: "basic", title: title, message: message, iconUrl: cover_url }
 
     PUBNUB.publish(:channel  => "mangas", :message  => options.to_json, http_sync: true)
   end

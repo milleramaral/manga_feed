@@ -3,6 +3,6 @@ class Release < ActiveRecord::Base
   after_create :notify_users
 
   def notify_users
-    Notification.send_message("Lançamento", "#{manga} #{chapter}")
+    Notification.send_message("Lançamento", "#{manga} #{chapter}", manga.cover_url)
   end
 end
